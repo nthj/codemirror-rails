@@ -1,3 +1,7 @@
+//= require_self
+//= require_tree ./codemirror/modes/
+//= require_tree ./codemirror/
+
 // All functions that need access to the editor's state live inside
 // the CodeMirror function. Below that, at the bottom of the file,
 // some utilities are defined.
